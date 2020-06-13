@@ -1,0 +1,34 @@
+{
+    "name": "umomega-tags",
+    "version": "1.3.0",
+    "description": "Tags UI Components For umΩ Apps",
+    "main": "tags-ui.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/umomega/tags-ui.git"
+    },
+    "keywords": [
+        "umomega",
+        "ui",
+        "tags",
+        "front-end",
+        "js"
+    ],
+    "author": {
+        "name": "Egemen Berker Kızılcan",
+        "email": "egemen@umomega.com",
+        "url": "https://umomega.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/umomega/tags-ui/issues"
+    },
+    "homepage": "https://github.com/umomega/tags-ui#readme",
+    "files": [
+        "js",
+        "LICENSE",
+        "README.md",
+        "tags-ui.js"
+    ],
+    "dependencies": {}
+}
