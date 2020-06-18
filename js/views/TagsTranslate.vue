@@ -56,9 +56,11 @@ export default {
 	}},
 	watch: {
 		resource: function(resource) {
+			var self = this
+
 			this.breadcrumbs.push({to: { name: 'tags.edit', id: resource.id }, text: this.tagName })
 			const availableLocales = this.$root.appLocales.filter(n => !resource.locales.includes(n))
-			this.schemaSecondary[0].options.choices = availableLocales.map(function(locale) { return { value: locale, label: this.$root.trans.get('foundation::general.locale_' + locale) } })
+			this.schemaSecondary[0].options.choices = availableLocales.map(function(locale) { return { value: locale, label: self.$root.trans.get('foundation::general.locale_' + locale) } })
 		}
 	}
 }
