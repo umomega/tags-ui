@@ -6,7 +6,7 @@
 		</div>
 
 		<div class="paper">
-			<form method="POST" action="/api/tags" @submit.prevent="requestStore('tags/' + resource.id + '/translate', 'tags.edit')" @change="form.errors.clear($event.target.name)" @keydown="form.errors.clear($event.target.name)" autocomplete="off">
+			<form method="POST" action="/api/tags" @submit.prevent="requestStore('tags/' + resource.id + '/translate', 'tags.edit')" @change="form.errors.clear($event.target.name)" autocomplete="off">
 
 				<div class="paper__body">
 					<div class="paper__main">
