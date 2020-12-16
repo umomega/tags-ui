@@ -1,6 +1,6 @@
 {
     "name": "umomega-tags",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "description": "Tags UI Components For umΩ Apps",
     "main": "tags-ui.js",
     "repository": {
